@@ -1,0 +1,16 @@
+.cover-section {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cover-section .cover-title {
+  font-size: 46px;
+  color: white;
+}
+
+/*# sourceMappingURL=frontend.css.map */
