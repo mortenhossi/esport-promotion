@@ -2,6 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  background: #393E46;
 }
 
 .main-container {
@@ -40,6 +41,9 @@ nav .navigation {
 nav .navigation .logo {
   width: 100%;
 }
+nav .navigation .logo:hover {
+  filter: brightness(110%);
+}
 nav .navigation .logo img {
   width: 100%;
   height: auto;
@@ -61,9 +65,13 @@ nav .navigation ul li a {
 nav .navigation ul li a:hover {
   color: #B55400;
 }
+nav .navigation ul .current-menu-item a {
+  color: #B55400;
+}
 
 .hamburger-menu {
   display: none;
+  margin-top: 10px;
   cursor: pointer;
 }
 @media screen and (max-width: 1100px) {

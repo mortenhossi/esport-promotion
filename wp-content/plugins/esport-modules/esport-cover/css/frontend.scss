@@ -9,7 +9,19 @@
     justify-content: center;
 
     .cover-title {
-        font-size: 46px;
-        color: white;
+        
+        h1 {
+            font-size: 46px;
+            color: white;
+        }
     }
+
+    .cover-image {
+        width: 80%;
+        
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+     }
 }

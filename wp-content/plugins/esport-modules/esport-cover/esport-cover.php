@@ -3,7 +3,7 @@ class CoverSection extends FLBuilderModule {
     public function __construct()
     {
         parent::__construct(array(
-            'name'            => 'eSport Promotion Cover Section',
+            'name'            => 'Cover Section',
             'description'     => 'Cover Section',
             'group'           => 'eSport Promotion Modules',
             'category'        => 'Modules',
@@ -24,9 +24,30 @@ FLBuilder::register_module( 'CoverSection', array(
             'general'  => array(
                 'title'         => 'General',
                 'fields'        => array(
+                    'title_or_image' => array(
+                        'type' => 'select',
+                        'label' => 'Title or image',
+                        'default' => 'title',
+                        'options' => array(
+                            'title' => 'Title',
+                            'image' => 'Image',
+                        ),
+                        'toggle' => array(
+                           'title' => array(
+                               'fields' => array('title'),
+                           ),
+                           'image' => array(
+                               'fields' => array('image'),
+                           ),
+                        ),
+                    ),
                     'title'     => array(
                         'type'          => 'text',
                         'label'         => 'Title',
+                    ),
+                    'image' => array(
+                        'type' => 'photo',
+                        'label' => 'Image',
                     ),
                     'background_image' => array(
                         'type' => 'photo',
