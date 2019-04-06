@@ -1,0 +1,31 @@
+.icon-text {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .icon-text {
+        width: 80%;
+    }
+}
+
+.icon-text .image-wrapper {
+    width: 50px;
+}
+
+.icon-text img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.icon-text .text-wrapper {
+    width: calc(100% - 50px);
+}
+
+.icon-text h3 {
+    color: #eeeeee;
+    font-weight: 400;
+    word-wrap: break-word;
+}

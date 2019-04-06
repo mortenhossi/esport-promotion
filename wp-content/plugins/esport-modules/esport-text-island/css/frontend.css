@@ -1,0 +1,42 @@
+.text-island-container {
+  width: 75%;
+  margin: auto;
+  margin-top: 100px;
+}
+@media screen and (max-width: 800px) {
+  .text-island-container {
+    width: 80%;
+    margin-top: 50px;
+  }
+}
+.text-island-container .title-wrapper {
+  color: #eeeeee;
+}
+.text-island-container .title-wrapper h2 {
+  font-size: 36px;
+}
+@media screen and (max-width: 800px) {
+  .text-island-container .title-wrapper h2 {
+    font-size: 26px;
+  }
+}
+.text-island-container .text-wrapper {
+  max-width: 600px;
+}
+.text-island-container .text-wrapper p {
+  color: #eeeeee;
+  font-size: 18px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 800px) {
+  .text-island-container .text-wrapper p {
+    font-size: 16px;
+  }
+}
+.text-island-container .line {
+  width: 50px;
+  height: 5px;
+  background: #B55400;
+}
+
+/*# sourceMappingURL=frontend.css.map */

@@ -1,5 +1,5 @@
 nav {
-    background: $dark_blue;
+    background: $dark_grey;
     position: fixed;
     top: 0;
     left: 0;
@@ -37,7 +37,7 @@ nav {
             li {
 
                 padding: 20px 0;
-                border-bottom: 1px solid $dark_grey;
+                border-bottom: 1px solid $dark_blue;
 
                 a {
                     color: $white;

@@ -1,0 +1,42 @@
+.text-island-container {
+    width: 75%;
+    margin: auto;
+    margin-top: 100px;
+
+    @media screen and (max-width: 800px) {
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .title-wrapper {
+        color: #eeeeee;
+
+        h2 {
+            font-size: 36px;
+
+            @media screen and (max-width: 800px) {
+                font-size: 26px;
+            }
+        }
+    }
+
+    .text-wrapper {
+        max-width: 600px;
+
+        p {
+            color: #eeeeee;
+            font-size: 18px;
+            line-height: 1.5;
+
+            @media screen and (max-width: 800px) {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .line {
+        width: 50px;
+        height: 5px;
+        background: #B55400;
+    }
+}

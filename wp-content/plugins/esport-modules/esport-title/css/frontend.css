@@ -1,0 +1,11 @@
+.title-module {
+    width: 75%;
+    margin: auto;
+    color: #eeeeee;
+}
+
+@media screen and (max-width: 800px) {
+    .title-module {
+        width: 80%;
+    }
+}

@@ -13,6 +13,8 @@ $image = $settings->image;
             </div>
         <?php }?>
 
+        <div class="line"></div>
+
         <?php if (!empty($text)) { ?>
             <div class="text-wrapper">
                 <?php echo $text ?>

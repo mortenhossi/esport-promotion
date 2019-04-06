@@ -1,0 +1,47 @@
+.steps-container {
+    width: 75%;
+    margin: auto;
+    margin-top: 100px;
+
+    @media screen and (max-width: 800px) {
+        width: 80%;
+    }
+
+    .title {
+        color: #eeeeee;
+    }
+
+    .steps-wrapper {
+        margin: 50px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .step {
+            width: calc(25% - 20px);
+            background: #393E46;
+            box-shadow:  0px 7px 16px 0px rgba(0,0,0,0.16);
+            border-radius: 5px;
+            text-align: center;
+            color: #eeeeee;
+
+            @media screen and (max-width: 800px) {
+                width: calc(50% - 10px);
+                margin-top: 20px;
+            }
+
+            @media screen and (max-width: 500px) {
+                width: 100%;
+                margin-top: 20px;
+            }
+
+            .step-title {
+                border-bottom: 3px solid #B55400;
+            }
+
+            .step-text {
+                padding: 10px 20px;
+            }
+        }
+    }
+}

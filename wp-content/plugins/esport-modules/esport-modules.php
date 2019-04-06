@@ -13,6 +13,11 @@ function my_load_module_examples() {
         // Include your custom modules here.
         require_once 'esport-cover/esport-cover.php';
         require_once 'esport-product/esport-product.php';
+        require_once 'esport-text-island/esport-text-island.php';
+        require_once 'esport-steps/esport-steps.php';
+        require_once 'esport-title/esport-title.php';
+        require_once 'esport-icon-text/esport-icon-text.php';
+        require_once 'esport-contact/esport-contact.php';
     }
 }
 add_action( 'init', 'my_load_module_examples' );

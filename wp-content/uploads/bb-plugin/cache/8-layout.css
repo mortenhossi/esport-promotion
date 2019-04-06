@@ -1084,14 +1084,23 @@ img.mfp-img {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .cover-section .cover-title {
+  width: 100%;
+}
+.cover-section .cover-title h1 {
   font-size: 46px;
   color: white;
+  text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .cover-section .cover-title h1 {
+    font-size: 36px;
+  }
 }
 .cover-section .cover-image {
   width: 80%;
+  margin: auto;
 }
 .cover-section .cover-image img {
   max-width: 100%;

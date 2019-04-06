@@ -1,0 +1,62 @@
+.contact-form {
+    width: 75%;
+    margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .contact-form {
+        width: 80%;
+    }
+}
+
+.contact-form label {
+    color: #eeeeee;
+}
+
+.contact-form .wpcf7-text, .contact-form .wpcf7-textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.contact-form .wpcf7-text {
+    width: 20%;
+}
+
+
+.contact-form .wpcf7-textarea {
+    width: 50%;
+    resize: none;
+}
+
+.contact-form .wpcf7-submit {
+    border: none;
+    background: #B55400;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.contact-form .wpcf7-submit:hover {
+    filter: brightness(100%);
+    transform: translateY(-1px);
+}
+
+.contact-form .wpcf7-response-output {
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    .contact-form .wpcf7-text, .contact-form .wpcf7-textarea, .contact-form .wpcf7-response-output {
+        width: 100%;
+    }
+}
+
+

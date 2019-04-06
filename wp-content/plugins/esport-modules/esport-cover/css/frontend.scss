@@ -6,18 +6,24 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
 
     .cover-title {
+        width: 100%;
         
         h1 {
             font-size: 46px;
             color: white;
+            text-align: center;
+
+            @media screen and (max-width: 800px) {
+                font-size: 36px;
+            }
         }
     }
 
     .cover-image {
         width: 80%;
+        margin: auto;
         
         img {
             max-width: 100%;
